@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# YOLO weights and models
+*.pt
+weights/
+yolov8n/
+
+# Training runs
+runs/
+
+# Large dataset folders
+train/
+test/
+valid/
+crane.v1i.yolov8-obb/
+Excavators.v5-augmented3x_accuratemodel.yolov8/
+
+# Video files
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Archive/Compressed files
+*.zip
+*.tar
+*.gz
+*.rar
